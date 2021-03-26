@@ -1,0 +1,61 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+.App {
+  text-align: center;
+  font-family: 'Dela Gothic One', cursive;
+}
+h3,h4
+{
+  padding: 0;
+  margin: 0;
+}
+body
+{
+  background-color:#C6DECC   ;
+  position: relative;
+  font-family: 'Lobster', cursive;
+  font-size:20px;
+}
+.mylist
+{
+ 
+  background: linear-gradient(90deg, white 18.5px, transparent 1%) center, linear-gradient(white 18.5px, transparent 1%) center, #a799cc;
+  background-size: 20px 20px;
+  width:330px;
+  height:500px;
+  position: absolute;
+  left:40%;
+  top:50px;
+  border-radius:10px;
+  box-shadow: 2px 2px 12px rgb(110, 116, 119) ;
+}
+.mylist h3
+{
+  background-color: #6FAD74  ;
+  padding: 8px;
+  border-radius: 5px;
+  width: fit-content;
+  margin:30px auto;
+  color:rgb(46, 116, 110) ;
+
+}
+.items h4
+{
+  text-align: left;
+  margin-left:52px;
+  line-height:30px;
+}
+input
+{
+  margin-right: 10px;
+  padding: 5px;
+  border-radius:5px;
+  border:none;
+  margin-bottom:10px;
+}
+ul,li
+{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
